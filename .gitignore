@@ -1,0 +1,16 @@
+# node modules
+node_modules
+
+# text editor
+.idea/
+.npmrc
+
+# Mac
+.DS_Store
+
+# Env
+.env
+
+# Compilation
+artifacts
+cache

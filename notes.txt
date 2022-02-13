@@ -1,0 +1,16 @@
+➜ npx hardhat --network ropsten run scripts/deploy.js
+Contract deployed to address: 0x094323315830396042A38B82daB8d783A0De928f
+
+➜ node scripts/mint-nft.js
+The hash of your transaction is:  0xabf993c2c4fcf4591ea6a8dabebf8da5f49d265a3f065169912a4f95e69afa5a
+Check Alchemy's Mempool to view the status of your transaction!
+
+➜ npx hardhat verify 0x094323315830396042A38B82daB8d783A0De928f --network ropsten --show-stack-traces
+Nothing to compile
+Compiling 1 file with 0.8.1
+Successfully submitted source code for contract
+contracts/Test1.sol:Test1 at 0x094323315830396042A38B82daB8d783A0De928f
+for verification on the block explorer. Waiting for verification result...
+
+Successfully verified contract Test1 on Etherscan.
+https://ropsten.etherscan.io/address/0x094323315830396042A38B82daB8d783A0De928f#code
